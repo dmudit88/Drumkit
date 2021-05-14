@@ -94,7 +94,7 @@ const animation = (key) => {
     buttonSelect.classList.add('animation');
     setTimeout(() => {
         buttonSelect.classList.remove('animation');
-    }, 1000);
+    }, 600);
 }
 for (let i = 0; i < buttons.length; i++) {
   console.log(buttons[i]);
