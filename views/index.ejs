@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <title>The Drum Kit</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="index.css">
+</head>
+  
+<body>
+    <h1>The Drum Kit</h1>
+   
+    <div class="all">
+      <button class="w button btn btn-primary" data-key="w">W</button>
+      <button class="a button btn btn-secondary" data-key="a">A</button>
+      <button class="s button btn btn-success" data-key="s">S</button>
+      <button class="d button btn btn-danger" data-key="d">D</button>
+      <button class="j button btn btn-warning" data-key="j">J</button>
+      <button class="k button btn btn-info" data-key="k">K</button>
+      <button class="l button btn btn-light" data-key="l">L</button>
+  </div>
+  <div class="hidden">
+    <audio
+      src="music/crash.mp3"
+      data-sound="w"
+      crossOrigin="anonymous"
+    ></audio>
+    <audio
+      src="music/kick-bass.mp3"
+      data-sound="a"
+      crossOrigin="anonymous"
+    ></audio>
+    <audio
+      src="music/snare.mp3"
+      data-sound="s"
+      crossOrigin="anonymous"
+    ></audio>
+    <audio
+      src="music/tom-1.mp3"
+      data-sound="d"
+      crossOrigin="anonymous"
+    ></audio>
+    <audio
+      src="music/tom-2.mp3"
+      data-sound="j"
+      crossOrigin="anonymous"
+    ></audio>
+    <audio
+      src="music/tom-3.mp3"
+      data-sound="k"
+      crossOrigin="anonymous"
+    ></audio>
+    <audio
+      src="music/tom-4.mp3"
+      data-sound="l"
+      crossOrigin="anonymous"
+    ></audio>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+  
+</html>
