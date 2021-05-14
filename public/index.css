@@ -37,14 +37,4 @@ button {
     [class*="col-"] {
       width: 100%;
     }
-    .center1{
-        margin: auto;
-        width: 25%;
-        padding: 10px;
-    }
-    .center2 {
-        margin: auto;
-        width: 20%;
-        padding: 10px;
-    }
 }

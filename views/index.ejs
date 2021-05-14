@@ -10,16 +10,28 @@
   
 <body>
     <h1>The Drum Kit</h1>
-   
-    <div class="all">
-      <button class="w button btn btn-primary" data-key="w">W</button>
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <button class="w button btn btn-primary" data-key="w">W</button>
       <button class="a button btn btn-secondary" data-key="a">A</button>
       <button class="s button btn btn-success" data-key="s">S</button>
-      <button class="d button btn btn-danger" data-key="d">D</button>
+        </div>
+        </div>
+        <div class="row">   
+        <div class="col">
+          <button class="d button btn btn-danger" data-key="d">D</button>
       <button class="j button btn btn-warning" data-key="j">J</button>
       <button class="k button btn btn-info" data-key="k">K</button>
-      <button class="l button btn btn-light" data-key="l">L</button>
-  </div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col">
+          <button class="l button btn btn-light" data-key="l">L</button>
+        </div>
+      </div>
+    </div>
+
   <div class="hidden">
     <audio
       src="music/crash.mp3"
